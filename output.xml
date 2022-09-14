@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.0 on darwin)" generated="20220914 21:42:46.994" rpa="false" schemaversion="3">
+<suite id="s1" name="Robotappium" source="/Users/qups/Downloads/IOSAppium/RobotFramework/robotappium.robot">
+<test id="s1-t1" name="OPEN_APP" line="22">
+<kw name="Open iOS Test App">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>http://127.0.0.1:4723/wd/hub</arg>
+<arg>automationName=${IOS_AUTOMATION_NAME}</arg>
+<arg>app=${IOS_APP}</arg>
+<arg>platformName=${IOS_PLATFORM_NAME}</arg>
+<arg>platformVersion=${IOS_PLATFORM_VERSION}</arg>
+<arg>deviceName=${IOS_DEVICE_NAME}</arg>
+<arg>noReset=${NO_RESET}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<status status="PASS" starttime="20220914 21:42:47.268" endtime="20220914 21:43:28.252"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>//XCUIElementTypeStaticText[@name="Action Sheets"]</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20220914 21:43:28.255" level="INFO">Clicking element '//XCUIElementTypeStaticText[@name="Action Sheets"]'.</msg>
+<status status="PASS" starttime="20220914 21:43:28.253" endtime="20220914 21:43:31.307"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220914 21:43:32.309" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220914 21:43:31.307" endtime="20220914 21:43:32.310"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>//XCUIElementTypeStaticText[@name="Okay / Cancel"]</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20220914 21:43:32.312" level="INFO">Clicking element '//XCUIElementTypeStaticText[@name="Okay / Cancel"]'.</msg>
+<status status="PASS" starttime="20220914 21:43:32.310" endtime="20220914 21:43:33.112"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220914 21:43:34.113" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220914 21:43:33.112" endtime="20220914 21:43:34.113"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>//XCUIElementTypeButton[@name="Cancel"]</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20220914 21:43:34.116" level="INFO">Clicking element '//XCUIElementTypeButton[@name="Cancel"]'.</msg>
+<status status="PASS" starttime="20220914 21:43:34.114" endtime="20220914 21:43:35.700"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220914 21:43:36.701" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220914 21:43:35.700" endtime="20220914 21:43:36.701"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>//XCUIElementTypeButton[@name="UICatalog"]</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20220914 21:43:36.703" level="INFO">Clicking element '//XCUIElementTypeButton[@name="UICatalog"]'.</msg>
+<status status="PASS" starttime="20220914 21:43:36.701" endtime="20220914 21:43:37.946"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220914 21:43:38.949" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220914 21:43:37.946" endtime="20220914 21:43:38.949"/>
+</kw>
+<kw name="Scroll Down" library="AppiumLibrary">
+<arg>Text Fields</arg>
+<doc>Scrolls down to element</doc>
+<status status="PASS" starttime="20220914 21:43:38.949" endtime="20220914 21:43:43.776"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220914 21:43:44.780" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220914 21:43:43.776" endtime="20220914 21:43:44.780"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>Text Fields</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20220914 21:43:44.782" level="INFO">Clicking element 'Text Fields'.</msg>
+<status status="PASS" starttime="20220914 21:43:44.780" endtime="20220914 21:43:45.704"/>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<arg>//XCUIElementTypeTable[@type="XCUIElementTypeTable"]/XCUIElementTypeCell[1]</arg>
+<arg>default</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<msg timestamp="20220914 21:43:45.708" level="INFO">Typing text 'default' into text field '//XCUIElementTypeTable[@type="XCUIElementTypeTable"]/XCUIElementTypeCell[1]'</msg>
+<status status="PASS" starttime="20220914 21:43:45.705" endtime="20220914 21:43:48.590"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220914 21:43:49.592" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220914 21:43:48.591" endtime="20220914 21:43:49.593"/>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<arg>//XCUIElementTypeTable[@type="XCUIElementTypeTable"]/XCUIElementTypeCell[2]</arg>
+<arg>tinted</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<msg timestamp="20220914 21:43:49.595" level="INFO">Typing text 'tinted' into text field '//XCUIElementTypeTable[@type="XCUIElementTypeTable"]/XCUIElementTypeCell[2]'</msg>
+<status status="PASS" starttime="20220914 21:43:49.593" endtime="20220914 21:43:51.005"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220914 21:43:52.006" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220914 21:43:51.005" endtime="20220914 21:43:52.007"/>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<arg>//XCUIElementTypeTable[@type="XCUIElementTypeTable"]/XCUIElementTypeCell[3]</arg>
+<arg>123456789</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<msg timestamp="20220914 21:43:52.009" level="INFO">Typing text '123456789' into text field '//XCUIElementTypeTable[@type="XCUIElementTypeTable"]/XCUIElementTypeCell[3]'</msg>
+<status status="PASS" starttime="20220914 21:43:52.007" endtime="20220914 21:43:53.784"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220914 21:43:54.785" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220914 21:43:53.784" endtime="20220914 21:43:54.785"/>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<arg>//XCUIElementTypeTable[@type="XCUIElementTypeTable"]/XCUIElementTypeCell[4]</arg>
+<arg>specefic keyboard</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<msg timestamp="20220914 21:43:54.789" level="INFO">Typing text 'specefic keyboard' into text field '//XCUIElementTypeTable[@type="XCUIElementTypeTable"]/XCUIElementTypeCell[4]'</msg>
+<status status="PASS" starttime="20220914 21:43:54.786" endtime="20220914 21:43:56.707"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220914 21:43:57.710" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220914 21:43:56.708" endtime="20220914 21:43:57.710"/>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<arg>//XCUIElementTypeTable[@type="XCUIElementTypeTable"]/XCUIElementTypeCell[5]</arg>
+<arg>custom</arg>
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<msg timestamp="20220914 21:43:57.712" level="INFO">Typing text 'custom' into text field '//XCUIElementTypeTable[@type="XCUIElementTypeTable"]/XCUIElementTypeCell[5]'</msg>
+<status status="PASS" starttime="20220914 21:43:57.710" endtime="20220914 21:43:59.169"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220914 21:44:00.171" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20220914 21:43:59.169" endtime="20220914 21:44:00.171"/>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<arg>//XCUIElementTypeButton[@name="Done"]</arg>
+<doc>Click element identified by `locator`.</doc>
+<msg timestamp="20220914 21:44:00.175" level="INFO">Clicking element '//XCUIElementTypeButton[@name="Done"]'.</msg>
+<status status="PASS" starttime="20220914 21:44:00.172" endtime="20220914 21:44:02.160"/>
+</kw>
+<kw name="Go Back" library="AppiumLibrary">
+<doc>Goes one step backward in the browser history.</doc>
+<status status="PASS" starttime="20220914 21:44:02.160" endtime="20220914 21:44:03.597"/>
+</kw>
+<kw name="Quit Application" library="AppiumLibrary">
+<doc>Quit application. Application can be quit while Appium session is kept alive.
+This keyword can be used to close application during test case or between test cases.</doc>
+<status status="PASS" starttime="20220914 21:44:03.598" endtime="20220914 21:44:04.641"/>
+</kw>
+<status status="PASS" starttime="20220914 21:42:47.268" endtime="20220914 21:44:04.641"/>
+</kw>
+<status status="PASS" starttime="20220914 21:42:47.267" endtime="20220914 21:44:04.641"/>
+</test>
+<status status="PASS" starttime="20220914 21:42:46.996" endtime="20220914 21:44:04.642"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robotappium">Robotappium</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
